@@ -169,7 +169,7 @@ public class NavigationBarView : MaterialView {
 			}
 			height = 44
 		} else {
-			grid.contentInset.top = 28
+			grid.contentInset.top = 20
 			
 			// TitleView alignment.
 			if let v: UILabel = titleLabel {
@@ -287,11 +287,11 @@ public class NavigationBarView : MaterialView {
 	public override func prepareView() {
 		super.prepareView()
 		oldFrame = frame
-		grid.spacing = 8
+		grid.spacing = 0
 		grid.axis.inherited = false
-		grid.contentInset.left = 8
-		grid.contentInset.bottom = 8
-		grid.contentInset.right = 8
+		grid.contentInset.left = 0
+		grid.contentInset.bottom = 0
+		grid.contentInset.right = 0
 		depth = .Depth1
 		prepareTitleView()
 	}
