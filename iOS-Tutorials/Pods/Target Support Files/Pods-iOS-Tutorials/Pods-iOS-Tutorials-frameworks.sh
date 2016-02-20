@@ -84,8 +84,18 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-iOS-Tutorials/Alamofire.framework"
+  install_framework "Pods-iOS-Tutorials/DGElasticPullToRefresh.framework"
+  install_framework "Pods-iOS-Tutorials/DLRadioButton.framework"
+  install_framework "Pods-iOS-Tutorials/Kanna.framework"
   install_framework "Pods-iOS-Tutorials/Material.framework"
+  install_framework "Pods-iOS-Tutorials/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-iOS-Tutorials/Alamofire.framework"
+  install_framework "Pods-iOS-Tutorials/DGElasticPullToRefresh.framework"
+  install_framework "Pods-iOS-Tutorials/DLRadioButton.framework"
+  install_framework "Pods-iOS-Tutorials/Kanna.framework"
   install_framework "Pods-iOS-Tutorials/Material.framework"
+  install_framework "Pods-iOS-Tutorials/SwiftyJSON.framework"
 fi

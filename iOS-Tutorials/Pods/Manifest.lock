@@ -1,12 +1,36 @@
 PODS:
+  - Alamofire (3.2.0)
+  - DGElasticPullToRefresh (1.0.3)
+  - DLRadioButton (1.4.6)
+  - Kanna (1.0.4)
   - Material (1.33.2)
+  - SwiftyJSON (2.3.2)
 
 DEPENDENCIES:
+  - Alamofire (~> 3.0)
+  - DGElasticPullToRefresh
+  - DLRadioButton (~> 1.4)
+  - Kanna (~> 1.0.0)
   - Material (~> 1.0)
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 42bdb102d2624b143c07850ebdc1537d5b6579b6
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
 
 SPEC CHECKSUMS:
+  Alamofire: 4da478599fccddff361205c8929333d7fe18dceb
+  DGElasticPullToRefresh: 040f39ae69840b3261d163fe6735c5901bf851e9
+  DLRadioButton: 4005319c135297c2998781d4b3dabc5e9b9781c4
+  Kanna: 537762df5e2203714769f8351340b3c724adb2bd
   Material: 8b6a82a8aaca9255a18ef1fa6a83ce44f800b87c
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
 
-PODFILE CHECKSUM: c477928cec19dc2ab02a9470dbe483e93abf12b1
+PODFILE CHECKSUM: 29b037872eb4c215ebd08d49d5caf18667e29025
 
 COCOAPODS: 1.0.0.beta.2
