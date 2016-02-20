@@ -7,17 +7,26 @@
 //
 
 import UIKit
+import Material
+import DLRadioButton
+import Alamofire
+import SwiftyJSON
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        // MARK : Set Properties
+        view.backgroundColor = MaterialColor.blue.base
+ 
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        // MARK : Set Frame
+        
     }
 
 

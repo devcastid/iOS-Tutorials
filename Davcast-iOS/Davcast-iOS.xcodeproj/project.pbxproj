@@ -69,14 +69,70 @@
 		D55E3BEB1C783697002DA18E /* Davcast-iOS */ = {
 			isa = PBXGroup;
 			children = (
-				D55E3BEC1C783697002DA18E /* AppDelegate.swift */,
-				D55E3BEE1C783697002DA18E /* ViewController.swift */,
-				D55E3BF61C783698002DA18E /* Assets.xcassets */,
-				D55E3BF81C783698002DA18E /* LaunchScreen.storyboard */,
-				D55E3BFB1C783698002DA18E /* Info.plist */,
-				D55E3BF31C783698002DA18E /* Davcast_iOS.xcdatamodeld */,
+				D55E3C061C783B73002DA18E /* Assets */,
+				D55E3C041C783B52002DA18E /* Core */,
+				D55E3C031C783B49002DA18E /* Models */,
+				D55E3C021C783B41002DA18E /* Views */,
+				D55E3C011C783B34002DA18E /* Controllers */,
+				D55E3C051C783B58002DA18E /* Library */,
+				D55E3C071C783B84002DA18E /* Others */,
 			);
 			path = "Davcast-iOS";
+			sourceTree = "<group>";
+		};
+		D55E3C011C783B34002DA18E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D55E3C021C783B41002DA18E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D55E3BF81C783698002DA18E /* LaunchScreen.storyboard */,
+				D55E3BEE1C783697002DA18E /* ViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D55E3C031C783B49002DA18E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D55E3BF31C783698002DA18E /* Davcast_iOS.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		D55E3C041C783B52002DA18E /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				D55E3BEC1C783697002DA18E /* AppDelegate.swift */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		D55E3C051C783B58002DA18E /* Library */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		D55E3C061C783B73002DA18E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D55E3BF61C783698002DA18E /* Assets.xcassets */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		D55E3C071C783B84002DA18E /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D55E3BFB1C783698002DA18E /* Info.plist */,
+			);
+			name = Others;
 			sourceTree = "<group>";
 		};
 		F5352CB99D1F422B6A00222A /* Pods */ = {
